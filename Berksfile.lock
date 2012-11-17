@@ -1,0 +1,4 @@
+cookbook 'chef-percona', :git => 'https://github.com/phlipper/chef-percona', :ref => 'ee4f84969ddf29a74146b450e2e2cc92bb88e3ac'
+cookbook 'apt', :locked_version => '1.5.0'
+cookbook 'yum', :locked_version => '1.0.0'
+cookbook 'openssl', :locked_version => '1.0.0'
